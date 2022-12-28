@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="music.css" />
+    <style>
+        body{
+    background: radial-gradient(rgb(81, 233, 81),rgb(244, 92, 92));
+}
+#ak1{
+    border: 1px solid red;
+    width: 200px;
+height: 200px;
+}
+#card-1{
+  display: inline-block; 
+  margin-top: 20px;
+  margin-left: 500px;
+  font-size: 40px;
+}#card-2{
+    display: inline-block; 
+    margin-left: 100px;
+    font-size: 40px;
+}
+#card-3{
+    display: inline-block; 
+    margin-left: 100px;
+    font-size: 40px;
+}
+#card-4{
+    display: inline-block; 
+    margin-left: 100px;
+    font-size: 40px;
+}
+#image1{
+    background-image: url(https://www.musicnotes.com/now/wp-content/uploads/Header-50-Quotes-about-Music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: aliceblue;
+}
+#quotes{
+    margin: 50px 300px;
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+}
+#gif{
+   padding-left: 50px;
+   width: 150px;
+   height: 150px;
+}
+.main {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    
+  }
+  .thecard {
+    position: absolute;
+   
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    display: inline-block;
+    
+  }
+  .thecard:hover {
+    transform: rotateY(180deg);
+  }
+  .thefront {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .theback {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  #top{
+    margin-top: 50px; 
+    margin-left: 150px;
+    display: inline-block;  
+}
+#top1{
+    margin-top: 100px; 
+    margin-left: 150px;
+    display: inline-block; 
+}
+#top3{
+    margin-top: 0px; 
+    margin-left: 150px;
+    display: flex; 
+    display: inline-block;
+}
+#aa{
+    background-image: url(https://www.pngkit.com/png/detail/84-848338_big-image-gif-listen-to-music-clipart.png);
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#top4{
+    margin-top: 0px; 
+    margin-left: 100px;
+    display: inline-block;
+}#aa1{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQMabIkT4FqyUwYnHuKNC8h0EI7XApOtwNg&usqp=CAU);    
+border-radius: 50px;
+}
+#a11{
+    background-image: url(https://www.icegif.com/wp-content/uploads/2022/01/icegif-215.gif);
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    border-radius: 50%;
+}
+#a12{
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    border-radius: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3s8In5SJmaLVSyJHVZBGzAEIkdeJ0Ugdcpw&usqp=CAU);    
+}
+#aa1{
+        width: 250px;
+        height: 250px;
+        background-size: contain;
+        border-radius: 50%;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPT9voZO0jtO8mLRnioRQn5L-Xt4Z_mKQISw&usqp=CAU);    
+    }
+    #card02{
+        width: 250px;
+        height: 250px;
+        background-size: contain;
+        border-radius: 50%;
+        background-image: url(https://images.indianexpress.com/2022/06/justin1200.jpg);    
+
+    }
+    #card01{
+    background-image: url(https://i.gifer.com/origin/9f/9f4242ecbae8441be63cc05bccd47fed.gif);
+    width: 250px;
+        height: 250px;
+        background-size: contain;
+        border-radius: 50%;
+    }
+    #card03{
+  background-image: url(https://media4.giphy.com/media/jRZ9aoOjivJMgrRYLy/200w.gif?cid=6c09b952mika2y6c3c73sjkwme6ns0tlvgbakcoleb433oia&rid=200w.gif&ct=g);
+  width: 250px;
+        height: 250px;
+        background-size: contain;
+        border-radius: 50%;
+    }
+    #card04{
+       background-image: url(https://c.saavncdn.com/000/Sri-Rama-Telugu-Devotional-Songs-Telugu-2022-20220407164051-500x500.jpg);
+        height: 250px;
+        background-size: contain;
+        border-radius: 50%;
+    }
+#x{
+    margin-left: 100px;
+}
+#music1{
+    width: 300px;
+    height: 300px;
+    margin-top: 400px;
+    margin-left: 100px;
+    border-radius: 25px;
+    display: inline-block;
+}
+#music2{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 25px;
+    display: inline-block;
+}
+#pa1{
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: -60px;
+    font-style: italic;
+    font-size: 30px;
+}
+#pw{
+    width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  float: right;
+  margin-top: 400px;
+}
+#pw1{
+    width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  float: right;
+  margin-top: 50px;
+}
+#photo1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#border2{
+
+    border: 1px solid;
+    background-color: rgb(168, 168, 168);
+    border-radius: 25px;
+    border: 1px solid red;
+    color: rgb(2, 2, 1);
+}
+#border3{
+
+    border: 1px solid;
+    background-color: rgb(168, 168, 168);
+    border-radius: 25px;
+    border: 1px solid red;
+    color: rgb(2, 2, 1);
+}
+#x1{
+    padding-top: 40px;
+    padding-left: 20px;
+    float: left;
+}
+#x2{
+    padding-left: 150px;
+    margin-top: 60px;
+    font-size: 19px;
+}
+#x3{
+    padding-left: 150px;
+    margin-top: -80px;
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+#x4{
+    background-color: rgb(234, 194, 136);
+    border: 1px solid red;
+   margin-bottom: 40px;
+}
+#x5{
+    padding-top: 50px;
+    padding-left: 20px;
+}#photo1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#pp1{
+    font-size: 40px;
+    text-align: center;
+}
+#child1{
+    display: inline-block;
+}
+#pp2{
+    margin-left: 40px;
+    display: inline-block;
+    width: 200px;
+
+    height: 200px;
+
+}
+#pp3{
+    margin-left: 40px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+#pp4{
+ 
+    margin-left: 40px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+#pp5{
+    
+    margin-left: 40px;
+  
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+#pp-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+#hj{
+    margin-top: 60px;
+}
+#pp-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#pp6{
+    display: inline-block;
+    margin-left: 100px;
+}
+#pp7{
+    display: inline-block;
+    margin-left: 40px;
+}
+#pp8{
+    display: inline-block;
+    margin-left: 40px;
+}
+#r1{
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+    </style>
+  </head>
+  
+    <div id="image1">
+      <div id="card-1">Home</div>
+      <div id="card-2">Browse</div>
+      <div id="card-3">Radio</div>
+      <div id="card-4">Mymusic</div>
+
+      <div>
+        <img
+          id="gif"
+          src="https://media.tenor.com/HJvqN2i4Zs4AAAAj/milk-and-mocha-cute.gif"
+          alt=""
+        />
+      </div>
+      <div id="quotes">
+        “Which of the two powers, Love or Music, can elevate man to the
+        sublimest heights?… It is a problem, and yet it seems to me that this is
+        the answer: ‘Love can give no idea of music; music can give an idea of
+        love.’… Why separate them? They are two wings of the soul.
+      </div>
+      <div id="x"></div>
+      <div id="top">
+        <div class="main">
+          <div id="a11" class="thecard">
+            <div class="thefront"></div>
+            <div id="a12" class="theback"></div>
+          </div>
+        </div>
+      </div>
+      <div id="top1">
+        <div class="main">
+          <div id="aa" class="thecard">
+            <div class="thefront"></div>
+            <div id="aa1" class="theback"></div>
+          </div>
+        </div>
+      </div>
+      <div id="top3">
+        <div class="main">
+          <div id="card01" class="thecard">
+            <div class="thefront"></div>
+            <div id="card02" class="theback"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <img
+      id="music1"
+      src="https://cover.djpunjab.is/52658/300x700/Vaar-Sidhu-Moose-Wala.jpg"
+      alt=""
+    />
+    <div id="pa1">
+    <p>Track : Vaar</p>
+    <p>Artist: SIdhu moosewala</p>
+    <p>Playtime : 2:17 min</p>
+   <p>Play&nbsp;<i class="fa-regular fa-circle-play"></i>&nbsp;</i><audio controls><source src="C:\Users\Shashikant Ray\Music\295.mp3" type="audio/mp3">vv</audio> </p> 
+  </div>
+  <div id="pw">
+    <div id="border2">
+      <div id="x1"><img src=" https://images.indianexpress.com/2018/08/sunny-deol-759.jpg" id="photo1" alt="">
+    </div><div id="x2">"Who’s tracks are played in luxury cars
+      
+      The one who is famous among the beautiful girls
+      Baby thats your man"</div>
+    <div id="x5"><img id="photo1" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Shri_Virat_Kohli_for_Cricket%2C_in_a_glittering_ceremony%2C_at_Rashtrapati_Bhavan%2C_in_New_Delhi_on_September_25%2C_2018_%28cropped%29.JPG" alt=""></div>
+      <div id="x3">"Where words leave off, music begins."</div></div></div>
+        <img
+        id="music2"
+        src="https://www.pagalworld.pw/GpE34Kg9Gq/113605/148594-ykwim-karan-aujla-mp3-song-300.jpg"
+        alt=""
+      />
+      <div id="pa1">
+        <p>Track : Vaar</p>
+        <p>Artist: Karan Aujla</p>
+        <p>Playtime : 3:14 min</p>
+       <p>Play&nbsp;<i class="fa-regular fa-circle-play"></i>&nbsp;</i><audio controls><source src="C:\Users\Shashikant Ray\Music\YKWIM - Karan Aujla.mp3" type="audio/mp3">vv</audio> </p> 
+      </div>
+      <div id="pw1">
+        <div id="border2">
+          <div id="x1"><img src=" https://img.etimg.com/thumb/msid-77437653,width-650,imgsize-92075,,resizemode-4,quality-100/sanjay-dutt-2.jpg" id="photo1" alt="">
+        </div><div id="x2">"Music, once admitted to the soul, becomes a sort of spirit, and never dies."</div>
+        <div id="x5"><img id="photo1" src="  https://upload.wikimedia.org/wikipedia/commons/0/09/Sunny_Leone%2C_december_2015%2C_Mastizaade.jpg" alt=""></div>
+          <div id="x3">"Music is the language of the spirit. It opens the secret of life bringing peace, abolishing strife.”"</div></div></div>
+            <img
+            id="music2"
+            src="https://covers.djpunjab.pro/image/499085/Churi-1.jpg"
+            alt=""
+          />
+          <div id="pa1">
+            <p>Track : Vaar</p>
+            <p>Artist: Khan bhaini</p>
+            <p>Playtime : 5:01 min</p>
+           <p>Play&nbsp;<i class="fa-regular fa-circle-play"></i>&nbsp;</i><audio controls><source src="C:\Users\Shashikant Ray\Music\Churi.mp3" type="audio/mp3">vv</audio> </p> 
+          </div>
+          <div id="pw1">
+            <div id="border2">
+              <div id="x1"><img src="https://www.mrdustbin.com/en/wp-content/uploads/2021/03/Vikram.jpg" id="photo1" alt="">
+            </div><div id="x2">"Music touches us emotionally, where words alone can't."</div>
+            <div id="x5"><img id="photo1" src="https://static.toiimg.com/thumb//65675521.cms?width=400&height=300&resizemode=4&pl=86206" alt=""></div>
+              <div id="x3">"Music produces a kind of pleasure which human nature cannot do without."</div></div></div>
+                <img
+                id="music2"
+                src="https://cover.djpunjab.is/43789/300x700/PBX-1-Sidhu-Moose-Wala.jpg"
+                alt=""
+              />
+              <div id="pa1">
+                <p>Track : Dawood</p>
+                <p>Artist: SIdhu moosewala</p>
+                <p>Playtime : 2:17 min</p>
+               <p>Play&nbsp;<i class="fa-regular fa-circle-play"></i>&nbsp;</i><audio controls><source src="C:\Users\Shashikant Ray\Music\Phir Bhi Tumko Chaahungi - (Mr-Jatt.com).mp3" type="audio/mp3">vv</audio> </p> 
+              </div>
+              <div id="pw1">
+                <div id="border2">
+                  <div id="x1"><img src=" https://www.koimoi.com/wp-content/new-galleries/2022/04/alia-bhatt-the-only-indian-asian-in-the-list-of-top-5-cinema-actors-actresses-influencers-on-instagram-001.jpg " id="photo1" alt="">
+                </div><div id="x2">"Music is the universal language of mankind."</div>
+                <div id="x5"><img id="photo1" src="  https://i.pinimg.com/236x/4f/8b/0a/4f8b0a0cfc3d4b90b064ba578da5b0ec.jpg" alt=""></div>
+                  <div id="x3">"I like beautiful melodies telling me terrible things"</div></div></div>
+                    <img
+                    id="music2"
+                    src="https://mrjatt.fm/covers/webp/150/tmbai.webp"
+                    alt=""
+                  />
+                  <div id="pa1">
+                    <p>Track : Main fir be tumko cha gye </p>
+                    <p>Artist: Ajit singh</p>
+                    <p>Playtime : 2:17 min</p>
+                   <p>Play&nbsp;<i class="fa-regular fa-circle-play"></i>&nbsp;</i><audio controls><source src="C:\Users\Shashikant Ray\Music\Phir Bhi Tumko Chaahungi - (Mr-Jatt.com).mp3" type="audio/mp3"></audio> </p> 
+                  </div>
+                  <div id="pw1">
+                    <div id="border2">
+                      <div id="x1"><img src=" https://stylesatlife.com/wp-content/uploads/2021/03/Famous-Bollywood-Actor-Akshay-Kumar.jpg" id="photo1" alt="">
+                    </div><div id="x2">"Who’s tracks are played in luxury cars
+                      
+                      The one who is famous among the beautiful girls
+                      Baby thats your man."</div>
+                    <div id="x5"><img id="photo1" src=" https://image.cnbcfm.com/api/v1/image/105755683-1550853148548gettyimages-109478107.jpeg?v=1581098226" alt=""></div>
+                      <div id="x3">"There are not more than five musical notes, yet the combinations of these five give rise to more melodies than can ever be heard"</div></div></div>
+                        <img
+                        id="music2"
+                        src="https://i.ytimg.com/vi/PygT4BnVuJU/maxresdefault.jpg"
+                        alt=""
+                      />
+                      <div id="pa1">
+                        <p>Track : Dawood</p>
+                        <p>Artist: SIdhu moosewala</p>
+                        <p>Playtime : 3:14 min</p>
+                       <p>Play&nbsp;<i class="fa-regular fa-circle-play"></i>&nbsp;</i><audio controls><source src="C:\Users\Shashikant Ray\Music\Dawood - Sidhu Moose Wala (1).mp3" type="audio/mp3"></audio> </p> 
+                      </div>a.mp
+                      <div id="pw1">
+                        <div id="border2">
+                          <div id="x1"><img src=" https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2022/7/8/vikram-hospital.jpg" id="photo1" alt="">
+                        </div><div id="x2">"If you’ve lost your faith in love and music, then the end won’t be long."</div>
+                        <div id="x5"><img id="photo1" src="https://i.insider.com/5b4df27ac0229b1b008b4c15?width=1136&format=jpeg" alt=""></div>
+                          <div id="x3">"There is no feeling, except the extremes of fear and grief, that does not find relief in music"</div></div></div>
+                            <img
+                            id="music2"
+                            src="data:image/jpeg;base64,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"
+                            alt=""
+                          />
+                          <div id="pa1">
+                            <p>Track : Vaar</p>
+                            <p>Artist: SIdhu moosewala</p>
+                            <p>Playtime : 2:17 min</p>
+                           <p>Play&nbsp;<i class="fa-regular fa-circle-play"></i>&nbsp;</i><audio controls><source src="C:\Users\Shashikant Ray\Music\Yaad.mp3" type="audio/mp3">vv</audio> </p> 
+                          </div>
+                          <div id="pw1">
+                            <div id="border2">
+                              <div id="x1"><img src="https://www.wfxrtv.com/wp-content/uploads/sites/20/2022/03/Willsmith.jpg?w=1280" id="photo1" alt="">
+                            </div><div id="x2">"If you’ve lost your faith in love and music, then the end won’t be long."</div>
+                            <div id="x5"><img id="photo1" src=" https://akm-img-a-in.tosshub.com/indiatoday/images/story/202211/untitled_design_-_2022-11-11t151838.616-sixteen_nine.png?VersionId=XOK08TOP4L3LMAd3laBccc6Ml_s3pynV" alt=""></div>
+                              <div id="x3">"There is no feeling, except the extremes of fear and grief, that does not find relief in music"</div></div></div>
+                              <hr>
+                             
+                                <div id="pp1">You May Also Like</div>
+                                <div id="child1">
+                                  <div id="hj">
+                                <div id="pp2"><img src="https://static.toiimg.com/thumb/msid-92037952,imgsize-,width-641,resizemode-4/92037952.jpg" id="pp-1"  alt=""></div>
+                                <div id="pp3"><img src="https://yt3.ggpht.com/ytc/AMLnZu_vhzTWvelJa30GPkKxi_RFx5Iz_ixz0NcpxgloiA=s900-c-k-c0x00ffffff-no-rj" id="pp-1" alt=""></div>
+                                <div id="pp4"><img src="https://static.toiimg.com/thumb/msid-89386079,width-900,height-1200,resizemode-6.cms" 
+                                   id="pp-1" alt=""></div>
+                                <div id="pp5"><img src="https://cdn.shopify.com/s/files/1/0560/9953/7074/products/10_fabcdc0b-bb28-4b5b-b02c-0d9d9aabc830_1024x1024@2x.jpg?v=1641541021" id="pp-1" alt=""></div>
+                              <a href="https://www.facebook.com/profile.php?id=100050452153251">  <div id="pp6"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/640px-Facebook_f_logo_%282021%29.svg.png"  id="pp-2" alt=""></div></a>
+                                <a href="https://instagram.com/raysaheb_07?igshid=YzdkMWQ2MWU=">   <div id="pp7"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" id="pp-2" alt=""></div></a>
+                                <div id="pp8"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/800px-Twitter-logo.svg.png" id="pp-2" alt=""></div><br>
+                                <hr>
+                                <div id="r1">@ Music Hub LTD 2019, All Rights Reserved</div>
+                              </div>
+                              </div>
+                        
+  </body>
+</html>
